@@ -1,0 +1,28 @@
+{
+  "name": "epr-portal-college-management-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srini1603/EPR-Portal-college-management-portal.git"
+  },
+  "author": "srini1603",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srini1603/EPR-Portal-college-management-portal/issues"
+  },
+  "homepage": "https://github.com/srini1603/EPR-Portal-college-management-portal#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

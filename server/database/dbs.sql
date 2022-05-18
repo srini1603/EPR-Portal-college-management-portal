@@ -1,0 +1,63 @@
+USE JPR;
+CREATE TABLE Studentdetail(
+    name VARCHAR(255) ,
+    studentphonenumber varchar(255),
+    rollno int NOT NULL,
+    tenthmark int,
+    twelthmark int,
+    tenthpassingyear int,
+    twelthpassingyear int,
+    cutoff int,
+    bus int ,
+    dateofjoin int NOT NULL,
+    tenthschool VARCHAR(255),
+    twelthschool varchar(255),
+    extra varchar(255),
+    medium varchar(50),
+    boardingpoint varchar(255),
+    community varchar(255),
+    caste varchar(255),
+    mothertounge varchar(100),
+    gender varchar(50),
+    vegornonveg varchar(50),
+    physicallychallenged varchar(50),
+    diplomo varchar(50),
+    diplomocollege varchar(255),
+    datescholarorhostel varchar(100),
+    bloodgroup VARCHAR(50),
+    email VARCHAR(255),
+    adharno VARCHAR(255),
+    identification VARCHAR(255),
+    photo VARCHAR(255),
+    religion VARCHAR(255),
+    lastname varchar(255),
+    firstname varchar(255),
+    fathername varchar(255),
+    fatherqualification varchar(255),
+    dob varchar(255),
+    fatheroccupation varchar(255),
+    fathernumber varchar(255),
+    fatheremail varchar(255),
+    mothername varchar(255),
+    mothernumber varchar(255),
+    motheremail varchar(255),
+    gaurdianname varchar(255),
+    gaurdiannumber varchar(255),
+    gaurdianemail varchar(255),
+    placeofbrith varchar(255),
+    tempaddress varchar(255),
+    permanantaddress varchar(255)
+);
+
+CREATE table staffdetails(
+    name varchar(255),
+    dob varchar(255),
+    qualification varchar(255),
+    bus int,
+    blood varchar(50),
+    address varchar(255),
+    subject varchar(255)
+
+);
+
+
