@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "Route"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "erp-portal",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}

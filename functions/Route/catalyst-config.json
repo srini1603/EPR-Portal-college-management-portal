@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "route",
+		"stack": "node16",
+		"type": "advancedio"
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

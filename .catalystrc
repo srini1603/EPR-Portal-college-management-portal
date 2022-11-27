@@ -1,0 +1,36 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "2150000000002013",
+      "name": "ERP",
+      "domain": {
+        "id": "50011403196",
+        "name": "erp-60018222865.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "60018222865",
+          "name": "Development",
+          "type": 3,
+          "env_status": "Active",
+          "project_details": {
+            "project_name": "ERP",
+            "id": "2150000000002013",
+            "project_type": "Live"
+          },
+          "is_default": true
+        }
+      ]
+    }
+  ]
+}
