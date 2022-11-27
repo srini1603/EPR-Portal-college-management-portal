@@ -1,7 +1,8 @@
 {
   "functions": {
     "targets": [
-      "Route"
+      "Route",
+      "image"
     ],
     "ignore": [],
     "source": "functions"
